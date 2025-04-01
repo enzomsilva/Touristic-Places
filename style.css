@@ -1,0 +1,20 @@
+/* You need to see what's box-sizing: border-box;
+   You need to see a way to Reset the CSS and understand why and what you're doing this;
+*/
+#page {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    border: solid red 2px;
+    padding: 88px 80px 48px;
+    width: 1120px;
+    height: 3143px;
+    margin: 0px auto;
+}
+#main {
+    width: 1120px;
+    height: 3054px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}
